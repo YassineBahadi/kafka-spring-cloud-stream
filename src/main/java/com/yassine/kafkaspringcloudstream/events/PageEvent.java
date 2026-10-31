@@ -1,0 +1,14 @@
+package com.yassine.kafkaspringcloudstream.events;
+
+import java.util.Date;
+
+/**
+ * @author pc
+ **/
+public record PageEvent(
+        String name,
+        String user,
+        Date date,
+        long duration
+) {
+}
